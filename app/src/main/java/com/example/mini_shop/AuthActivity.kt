@@ -36,6 +36,8 @@ import android.widget.Toast
                     Toast.makeText(this, "User $login logged in", Toast.LENGTH_LONG).show()
                     userLogin.text.clear()
                     userPass.text.clear()
+                    val intent = Intent(this, ItemsActivity::class.java)
+                    startActivity(intent)
                 } else {
                     Toast.makeText(this, "User $login not found", Toast.LENGTH_LONG).show()
                 }
