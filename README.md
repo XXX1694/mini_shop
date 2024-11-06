@@ -4,3 +4,5 @@ Added:
   - Kotlin basics 
   - SQLite database
   - Payment system by https://razorpay.com/ (not finished)
+
+for learning purpose
